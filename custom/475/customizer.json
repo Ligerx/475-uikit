@@ -21,15 +21,22 @@
             "vars": [
                 "*-font-family"
             ],
-            "options": [
-                {"name": "Arial", "value": "\"Helvetica Neue\", Helvetica, Arial, sans-serif"},
-                {"name": "Consolas", "value": "Consolas, monospace, serif"},
-                {"name": "Georgia", "value": "Georgia, \"Times New Roman\", Times, serif"},
-                {"name": "Lucida", "value": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Verdana, sans-serif"},
-                {"name": "Times New Roman", "value": "\"Times New Roman\", Times, serif"},
-                {"name": "Trebuchet", "value": "\"Trebuchet MS\", Verdana, Arial, sans-serif"},
-                {"name": "Verdana", "value": "Verdana, Arial, sans-serif"}
-            ]
+            "options": {
+                "System Fonts": [
+                    {"name": "Arial", "value": "\"Helvetica Neue\", Helvetica, Arial, sans-serif"},
+                    {"name": "Consolas", "value": "Consolas, monospace, serif"},
+                    {"name": "Georgia", "value": "Georgia, \"Times New Roman\", Times, serif"},
+                    {"name": "Lucida", "value": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Verdana, sans-serif"},
+                    {"name": "Times New Roman", "value": "\"Times New Roman\", Times, serif"},
+                    {"name": "Trebuchet", "value": "\"Trebuchet MS\", Verdana, Arial, sans-serif"},
+                    {"name": "Verdana", "value": "Verdana, Arial, sans-serif"}
+                ],
+                "Google Fonts": [
+                    {"name": "Montserrat", "value": "'Montserrat'", "url":"https://fonts.googleapis.com/css?family=Montserrat:400,700"},
+                    {"name": "Istok Web", "value": "'Istok Web'", "url":"https://fonts.googleapis.com/css?family=Istok+Web:400,700"},
+                    {"name": "Domine", "value": "'Domine'", "url":"https://fonts.googleapis.com/css?family=Domine:400,700"}
+                ]
+            }
         },
         {
             "type": "select",
